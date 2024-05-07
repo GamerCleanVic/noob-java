@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+      {/*<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
@@ -37,9 +37,13 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+  </div>*/}
 
-      <div className="border border-blue-500 rounded-[5px] mt-8 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+
+
+      <div className="p-3 items-center border border-blue-500 rounded-[5px] mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+
+
         <a
           href="https://www.youtube.com/playlist?list=PL62G310vn6nHrMr1tFLNOYP_c73m6nAzL"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -74,7 +78,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="border border-orange-500 rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+      <div className="p-3 border border-orange-500 rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
           href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBrgumpzz-l8kFMw2DLERdxi"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -109,7 +113,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="border border-grey rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+      <div className="p-3 border border-grey rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
           href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBrgumpzz-l8kFMw2DLERdxi"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -144,7 +148,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="border border-blue-500 rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+      <div className="p-3 border border-blue-500 rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
           href="https://www.youtube.com/playlist?list=PLlGZc17KPrVCGRKtgbdvnGshN8AePlqpd"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -179,7 +183,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="border border-orange-500 rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+      <div className="p-3 border border-orange-500 rounded-[5px] mt-4 mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
           href="https://www.youtube.com/playlist?list=PLlGZc17KPrVCGRKtgbdvnGshN8AePlqpd"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -212,6 +216,46 @@ export default function Home() {
           Spring Boot essentials 2 - DevDojo.
           </p>
         </a>
+      </div>
+
+      <div className="
+        mt-8
+        ">
+          <div
+            className="
+            flex
+            flex-row
+            justify-around
+            items-center
+            flex-wrap
+            "
+          >
+          <a
+            className="
+            p-2
+            w-[20rem]
+            border-[3px]
+            border-blue-500
+            rounded-[5px]
+            bg-none
+            text-blue-500
+            hover:bg-[#ccc]
+            hover:text-blue-950
+            hover:duration-[0.5s]
+            cursor-pointer
+            font-bold
+            mr-3
+            duration-[2s]
+            text-center
+          "
+          href="https://github.com/GamerCleanVic/noob-java" target="_blank" rel="noopener noreferrer">
+            <input className="
+                uppercase
+                cursor-pointer
+              " type="button" value={'MONOrepo - java noob roadmap'}/>
+          </a>
+
+        </div>
       </div>
     </main>
   );
