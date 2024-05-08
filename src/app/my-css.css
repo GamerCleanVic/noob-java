@@ -1,0 +1,7 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./Finger_Paint/FingerPaint-Regular.ttf');
+}
+.my-font{
+    font-family: myFirstFont;
+}

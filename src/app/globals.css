@@ -1,8 +1,3 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url(/public/fonts/Finger_Paint/FingerPaint-Regular);
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,8 +32,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-.title-roadmap{
-  font-family: myFirstFont !important;
 }
