@@ -1,11 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @font-face {
   font-family: myFirstFont;
   src: url(/public/fonts/Finger_Paint/FingerPaint-Regular);
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
