@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(/public/fonts/Finger_Paint/FingerPaint-Regular);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +35,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.title-roadmap{
+  font-family: myFirstFont;
 }
