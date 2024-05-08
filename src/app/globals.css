@@ -40,5 +40,5 @@ body {
 }
 
 .title-roadmap{
-  font-family: myFirstFont;
+  font-family: myFirstFont !important;
 }
